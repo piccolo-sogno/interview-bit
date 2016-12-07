@@ -1,4 +1,4 @@
-# interview-bit
+# Olcay's (aka piccolo-sogno) InterviewBit Solutions
 
 I will write down my solutions under Programming section on InterviewBit in this project.
 
