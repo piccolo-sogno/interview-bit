@@ -5,33 +5,33 @@ I will write down my Programming section under InterviewBit solutions under this
 This project includes following folders which are related sections on InterviewBit:
 
   - Level 2
-    -- Arrays
-    -- Math
+    - Arrays
+    - Math
     
   - Level 3
-    -- Binary Search
-    -- Strings
-    -- Bit Manipulation
-    -- Two Pointers
+    - Binary Search
+    - Strings
+    - Bit Manipulation
+    - Two Pointers
     
   - Level 4
-    -- Linked Lists
-    -- Stacks and Queues
+    - Linked Lists
+    - Stacks and Queues
     
   - Level 5
-    -- Backtracking
-    -- Hashing
+    - Backtracking
+    - Hashing
     
   - Level 6
-    -- Heaps and Maps
-    -- Trees
+    - Heaps and Maps
+    - Trees
     
   - Level 7
-    -- Dynamic Programming
-    -- Greedy
+    - Dynamic Programming
+    - Greedy
     
   - Level 8
-    -- Graphs
+    - Graphs
   
 
 I'll try to be Code Ninja! on InterviewBit.
