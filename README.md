@@ -1,6 +1,6 @@
 # interview-bit
 
-I will write down my Programming section under InterviewBit solutions under this project.
+I will write down my solutions under Programming section on InterviewBit in this project.
 
 This project includes following folders which are related sections on InterviewBit:
 
