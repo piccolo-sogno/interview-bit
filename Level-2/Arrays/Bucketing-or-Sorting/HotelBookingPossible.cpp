@@ -25,26 +25,26 @@
 
 bool Solution::hotel(vector<int> &a, vector<int> &d, int k) {
 
-  if( (k == 0) || (a.size()==0) || (d.size() == 0) )
-	    return false;
+  if( (k == 0) || (a.size()==0) || (d.size() == 0)
+     return false;
 	
   int currBook = 0;
-	multiset<pair<int,char>> mset;
+  multiset<pair<int,char>> mset;
 	
-  for(int i=0; i<a.size(); i++){
-		mset.emplace(a[i], 'S');
-		mset.emplace(d[i], 'E');
-	}
+  for(int i=0; i<a.size(); i++) {
+      mset.emplace(a[i], 'S');
+      mset.emplace(d[i], 'E');
+  }
 	
-  for(auto it=mset.begin(); it != mset.end(); it++){
-		if(it->second == 'S')
-			currBook++;
-		else
-			currBook--;
+  for (auto it=mset.begin(); it != mset.end(); it++){
+      if (it->second == 'S')
+	  currBook++;
+      else
+	  currBook--;
 
-    if(currBook > k)
-			return false;
-	}
+      if(currBook > k)
+	  return false;
+  }
 	
   return true;
 }
