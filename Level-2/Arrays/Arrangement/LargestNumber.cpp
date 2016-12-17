@@ -1,9 +1,9 @@
-//     Problem: Largest Number - (piccolo-sogno)
-//              Given a list of non negative integers, arrange them such that they form the largest number.
+// Problem: Largest Number - (piccolo-sogno)
+//          Given a list of non negative integers, arrange them such that they form the largest number.
 //
 // For example: Given [3, 30, 34, 5, 9], the largest formed number is 9534330.
 //
-//        Note: The result may be very large, so you need to return a string instead of an integer.
+// Note: The result may be very large, so you need to return a string instead of an integer.
 
 bool sortDesc(string s1, string s2){
     // compares two string, returns true if first+second is bigger than second+first.
@@ -34,9 +34,9 @@ string Solution::largestNumber(const vector<int> &vec) {
     // if all the data in input is zero, just return zero.
     for(int i=0; i<vec.size(); i++)    
     {
-		if(vec[i] != 0)break;
-			return "0";
-	}
+	if(vec[i] != 0)break;
+	    return "0";
+    }
 	
 	string res;
 	vector<string> strvec;
