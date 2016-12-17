@@ -27,32 +27,31 @@ bool sortDesc(string s1, string s2){
 
 string Solution::largestNumber(const vector<int> &vec) {
 	
-  // if no data in input, return ""
-	if(vec.size() == 0)
-	    return "";
+    // if no data in input, return ""
+    if(vec.size() == 0)
+       return "";
   
-  // if all the data in input is zero, just return zero.
-	for(int i=0; i<vec.size(); i++)    
-	{
-	    if(vec[i] != 0)
-	        break;
-	    return "0";
+    // if all the data in input is zero, just return zero.
+    for(int i=0; i<vec.size(); i++)    
+    {
+		if(vec[i] != 0)break;
+			return "0";
 	}
 	
 	string res;
 	vector<string> strvec;
   
-  // get integer data from input, put it into string vector.
+	// get integer data from input, put it into string vector.
 	for(int i=0; i<vec.size(); i++){
 		stringstream ss;
 		ss << vec[i];
 		strvec.push_back(ss.str());
 	}
   
-  // sort string vector as defined in sortDesc function.
+	// sort string vector as defined in sortDesc function.
 	sort(strvec.begin(), strvec.end(), sortDesc);
   
-  // append all elements in string vector into single string.
+	// append all elements in string vector into single string.
 	for(int i = 0; i < strvec.size(); i++)
 		res.append(strvec[i]);
 	
